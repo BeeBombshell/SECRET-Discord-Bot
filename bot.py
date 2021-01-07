@@ -677,5 +677,5 @@ async def request_points(ctx):
 async def change_status():
     await client.change_presence(activity=discord.Game(next(status)))
 
-# Insert Your Token Here (from Discord Developer Portal  https://discord.com/developers/applications)
+# Insert Your Token Here (Discord Developer Portal: https://discord.com/developers/applications)
 client.run("")
